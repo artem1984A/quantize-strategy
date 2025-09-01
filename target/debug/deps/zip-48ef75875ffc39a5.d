@@ -1,0 +1,20 @@
+/home/artem/quantize-strategy-github/target/debug/deps/libzip-48ef75875ffc39a5.rmeta: /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/lib.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/compression.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/cp437.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/crc32.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/extra_fields/mod.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/extra_fields/extended_timestamp.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/read.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/read/stream.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/result.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/spec.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/types.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/write.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/zipcrypto.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/unstable.rs
+
+/home/artem/quantize-strategy-github/target/debug/deps/zip-48ef75875ffc39a5.d: /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/lib.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/compression.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/cp437.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/crc32.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/extra_fields/mod.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/extra_fields/extended_timestamp.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/read.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/read/stream.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/result.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/spec.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/types.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/write.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/zipcrypto.rs /home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/unstable.rs
+
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/lib.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/compression.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/cp437.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/crc32.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/extra_fields/mod.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/extra_fields/extended_timestamp.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/read.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/read/stream.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/result.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/spec.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/types.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/write.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/zipcrypto.rs:
+/home/artem/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zip-1.1.4/src/unstable.rs:
+
+# env-dep:CARGO_PKG_VERSION=1.1.4

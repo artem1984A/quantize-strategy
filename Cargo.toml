@@ -1,0 +1,45 @@
+[package]
+name = "quantize-strategy"
+version = "0.1.0"
+edition = "2021"
+description = "Advanced quantization strategies for neural network models"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/artem1984A/quantize-strategy"
+authors = ["Artem Ryzhov <topmarnet@gmail.com>"]
+keywords = ["quantization", "neural-networks", "machine-learning", "candle"]
+categories = ["science"]
+readme = "README.md"
+
+[lib]
+name = "quantize_strategy"
+
+[[bin]]
+name = "quantize_q8k"
+path = "src/bin/quantize_q8.rs"
+
+[dependencies]
+anyhow = "1.0"
+candle-core = "0.9.1"
+candle-nn = "0.9.1"
+safetensors = "0.4"
+half = "2.0"
+bytemuck = { version = "1.15", features = ["derive"] }
+once_cell = "1.19"
+regex = "1.10"
+nalgebra = { version = "0.33", optional = true }
+
+[features]
+default = []
+advanced = ["nalgebra"]
+cuda = ["candle-core/cuda", "candle-nn/cuda"]
+metal = ["candle-core/metal", "candle-nn/metal"]
+mkl = ["candle-core/mkl", "candle-nn/mkl"]
+
+[dev-dependencies]
+criterion = "0.5"
+tempfile = "3.0"
+
+# Until not created actual benchmarks:
+# [[bench]]
+# name = "quantization_benchmark"
+# harness = false
