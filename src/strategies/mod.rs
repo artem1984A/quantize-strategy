@@ -2,11 +2,12 @@
 
 pub mod attention_aware;
 pub mod l2_norm;
-// pub mod qr_pivot;    
-// pub mod learnable;    
+pub mod qr_pivot;
+// pub mod learnable;
 
 pub use attention_aware::AttentionAwareStrategy;
 pub use l2_norm::L2NormStrategy;
+pub use qr_pivot::QRPivotStrategy;
 
 use crate::core::{QuantizationConfig, QuantizationResult};
 use anyhow::Result;
@@ -45,11 +46,9 @@ pub fn create_strategy(strategy_type: &StrategyType) -> Box<dyn QuantizationStra
         StrategyType::L2Norm => Box::new(L2NormStrategy::new()),
         StrategyType::AttentionAware => Box::new(AttentionAwareStrategy::new()),
         StrategyType::QRPivot => {
-            // Box::new(QRPivotStrategy::new())
-            unimplemented!("QR Pivot strategy not yet implemented")
+            Box::new(QRPivotStrategy::new(1e-8)) // Small regularization
         }
         StrategyType::Learnable { .. } => {
-            // Box::new(LearnableStrategy::new(learning_rate, iterations))
             unimplemented!("Learnable strategy not yet implemented")
         }
     }

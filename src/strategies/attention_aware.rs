@@ -1,5 +1,3 @@
-//! Attention layer-aware permutation strategy - copied from working quantize_q8k_copy2.rs
-
 use super::QuantizationStrategy;
 use crate::utils::{apply_column_permutation, build_column_permutation, column_l2_norms};
 use anyhow::Result;

@@ -4,7 +4,7 @@
 
 Advanced quantization strategies for neural network models, with first-class support for [Candle](https://github.com/huggingface/candle).
 
-- **Research Oriented**: Detailed metrics and benchmarking tools
+- **Research Oriented**
 
 ### CLI Usage
 
@@ -66,9 +66,6 @@ src/
 - **`QuantizationConfig`**: Configuration and parameters
 - **`ValidationSystem`**: Dual MSE quality assessment
 - **`FileIO`**: Efficient `.q8k` and `.perm` file handling
-
-
-## Advanced Usage
 
 ### Environment Variables
 

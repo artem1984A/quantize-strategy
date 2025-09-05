@@ -6,7 +6,7 @@ description = "Advanced quantization strategies for neural network models"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/artem1984A/quantize-strategy"
 authors = ["Artem Ryzhov <topmarnet@gmail.com>"]
-keywords = ["quantization", "neural-networks", "machine-learning", "candle"]
+keywords = ["quantization", "neural-networks", "nalgebra", "candle"]
 categories = ["science"]
 readme = "README.md"
 
